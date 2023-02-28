@@ -1,5 +1,1 @@
-all: 
-	javac xkcdpwgen.java
-	touch xkcdpwgen
-	echo "java xkcdpwgen $@" > xkcdpwgen
-	chmod +x xkcdpwgen
+all: java java: javac xkcdpwgen.java
