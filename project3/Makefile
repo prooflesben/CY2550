@@ -1,1 +1,3 @@
-all: java java: javac xkcdpwgen.java
+all: java
+java:    
+javac: xkcdpwgen.java
