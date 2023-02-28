@@ -1,1 +1,1 @@
-#!/bin/bash java xkcdpwgen $@
+java xkcdpwgen $@
