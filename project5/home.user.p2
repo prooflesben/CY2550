@@ -1,0 +1,22 @@
+# Last Modified: Sun Apr  2 14:50:55 2023
+abi <abi/3.0>,
+
+include <tunables/global>
+
+/home/user/p2 {
+  /home/user/p2 mr,
+  /tmp/project* rw,
+  /home/user/.project2/config rw,
+  /var/log/syslog r,
+  /etc/fstab r,
+  /run/systemd/resolve/stub-resolv.conf r,
+  /home/user/template r,
+  /proc/version r,
+  /proc/buddyinfo r,
+  /etc/crontab r,
+  /etc/passwd r,
+  network tcp,
+  /etc/hosts r,
+  /usr/lib/x86_64-linux-gnu/libc.so.6 mr,
+  /proc/stat r,
+}
